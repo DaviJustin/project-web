@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #f3f4f6;
+  color: #333;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  color: #007bff;
+}
+
+#hero {
+  text-align: center;
+  background-color: #007bff;
+  color: #fff;
+  padding: 100px 20px;
+}
+
+#hero img {
+  width: 200px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: 40px auto;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+#services ul {
+  list-style: none;
+  padding: 0;
+}
+
+#services ul li {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#contact form input,
+#contact form textarea {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#contact form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 150px;
+  margin: 20px auto;
+  font-size: 18px;
+}
+
+#contact form button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  border-top: 1px solid #ddd;
+  margin-top: 40px;
+}
+
+footer p {
+  margin: 0;
+}
+
+#fun-facts {
+  background-color: #f7f8fa;
+  padding: 40px 20px;
+  margin-top: 20px;
+}
+
+#fun-facts h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+#fun-facts p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+#fun-facts ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+#fun-facts ul li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+#contact a {
+  color: #007BFF; /* Link color */
+  text-decoration: none; /* Removes the underline */
+  font-weight: bold; /* Makes the text bold */
+}
+
+#contact a:hover {
+  text-decoration: underline; /* Adds an underline on hover */
+}
+
+
+/* Style for Contact Section */
+#contact {
+  text-align: center; /* Centers the content */
+}
+
+#contact .contact-image {
+  max-width: 150px; /* Sets maximum width of the image */
+  border-radius: 50%; /* Makes the image circular */
+  margin-bottom: 20px; /* Adds space below the image */
+}
+
+/* Style for Links */
+#contact a {
+  color: #007BFF; /* Link color */
+  text-decoration: none; /* Removes underline */
+}
+
+#contact a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Style for Contact Information */
+#contact p {
+  font-size: 18px; /* Sets font size */
+  margin: 10px 0; /* Adds margin around paragraphs */
+}
+
+
+.contacts-image {
+  max-width: 500px; /* Sets maximum width of the image */
+  border-radius: 20%; /* Makes the image circular */
+}
